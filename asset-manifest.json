@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Frontend-Web-test/static/css/main.0f48ade1.chunk.css",
+    "main.css": "/Frontend-Web-test/static/css/main.1b947fef.chunk.css",
     "main.js": "/Frontend-Web-test/static/js/main.b4548db3.chunk.js",
     "main.js.map": "/Frontend-Web-test/static/js/main.b4548db3.chunk.js.map",
     "runtime-main.js": "/Frontend-Web-test/static/js/runtime-main.87bd4537.js",
@@ -8,7 +8,7 @@
     "static/js/2.fcef90f8.chunk.js": "/Frontend-Web-test/static/js/2.fcef90f8.chunk.js",
     "static/js/2.fcef90f8.chunk.js.map": "/Frontend-Web-test/static/js/2.fcef90f8.chunk.js.map",
     "index.html": "/Frontend-Web-test/index.html",
-    "static/css/main.0f48ade1.chunk.css.map": "/Frontend-Web-test/static/css/main.0f48ade1.chunk.css.map",
+    "static/css/main.1b947fef.chunk.css.map": "/Frontend-Web-test/static/css/main.1b947fef.chunk.css.map",
     "static/js/2.fcef90f8.chunk.js.LICENSE.txt": "/Frontend-Web-test/static/js/2.fcef90f8.chunk.js.LICENSE.txt",
     "static/media/Ellipse1.ec79ede5.png": "/Frontend-Web-test/static/media/Ellipse1.ec79ede5.png",
     "static/media/Ellipse2.a790aacc.png": "/Frontend-Web-test/static/media/Ellipse2.a790aacc.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.87bd4537.js",
     "static/js/2.fcef90f8.chunk.js",
-    "static/css/main.0f48ade1.chunk.css",
+    "static/css/main.1b947fef.chunk.css",
     "static/js/main.b4548db3.chunk.js"
   ]
 }
