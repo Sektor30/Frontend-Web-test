@@ -1,3 +1,7 @@
+.titulo{
+    font-size: 80px;
+}
+
 .comments {
     padding: 4rem;
     width: 90%;
@@ -6,3 +10,12 @@
     background-color: var(--light-color);
     border-radius: 2rem;
 }
+
+
+@media (max-width: 1500px) {
+   
+    .titulo{
+        font-size: 50px ;
+    }
+  
+  }

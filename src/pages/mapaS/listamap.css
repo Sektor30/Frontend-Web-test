@@ -90,6 +90,11 @@ ul{
    
     padding: 20px 110px;
   }
+
+  .mapaSitio h1{
+    font-size: 50px;
+
+  }
 }
 
 @media (max-width:450px) {

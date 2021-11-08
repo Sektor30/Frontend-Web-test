@@ -312,7 +312,7 @@ input[type="submit"] {
   padding-bottom: 500px;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1240px) {
   html {
     font-size: 55%;
   }
@@ -320,8 +320,9 @@ input[type="submit"] {
   
   .container-one {
       width: 100%;
-      margin-left: 2px;
+      margin-left: -50px;
       align-items: center;
+
   }
   
 }
@@ -353,7 +354,7 @@ input[type="submit"] {
   }
   .blurb{
     text-align: center;
-    width: 340px;
+    width: 305px;
     height: 150px;
   
   }

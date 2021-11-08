@@ -5,7 +5,7 @@ import './Comments.css'
 function Comments() {
     return (
         <>
-            <h1><span>Com</span>entarios</h1>
+            <h1 className="titulo"><span>Com</span>entarios</h1>
             <div className="comments">
                 <DiscussionEmbed
                 shortname='logofood'

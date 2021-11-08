@@ -8,7 +8,7 @@ class Listamapa extends Component {
 
             <div className=" ">
 
-                <div className="mapaSitio  ">
+                <div className="mapaSitio">
                     <h1><span>Map</span>a del sitio</h1>
                 </div >
                 <div className=" ">
