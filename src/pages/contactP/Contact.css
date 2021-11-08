@@ -140,8 +140,9 @@ textarea {
   justify-content: center;
   z-index: 2;
   padding-left: 14.5rem;
-  margin-left: 43rem;
+  margin-left: 40rem;
   width: 50%;
+  
   
 }
 
@@ -330,7 +331,8 @@ input[type="submit"] {
   }
 
   .container-one {
-    margin-left: 30px;
+    margin-left: -70px;
+    
   }
   .container-four {
     padding-right: 10px;
@@ -367,8 +369,7 @@ input[type="submit"] {
     font-size: 50%;
   }
   .container-one {
-    padding-left: 0px;
-    margin-left: 10px;
+    justify-content: center;
   }
 
 

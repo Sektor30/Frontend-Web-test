@@ -6,12 +6,20 @@ export const EventosContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     background: var(--eventos-bg);
-    padding: 3rem 30rem;
+    padding: 1rem 30rem;
     margin-bottom: 80px;
     width: 100%;
 
+    
     @media (max-width:991px) {
         margin-bottom: 70px;
+    }
+
+    @media (max-width:600px) {
+        margin-bottom: 70px;
+        margin-left: -45px;
+        justify-content:center ;
+        
     }
 `;
 
@@ -41,7 +49,7 @@ export const EventosH1 = styled.h1`
         text-align: center;
         width: 95%;
         margin: 0 auto;
-        font-size: 60px;
+        font-size: 45px;
     }
 `;
 
