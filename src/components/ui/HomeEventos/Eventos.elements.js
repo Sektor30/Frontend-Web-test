@@ -6,18 +6,25 @@ export const EventosContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     background: var(--eventos-bg);
-    padding: 1rem 30rem;
-    margin-bottom: 80px;
+    padding: 1rem 60rem;
     width: 100%;
+     
 
     
     @media (max-width:991px) {
         margin-bottom: 70px;
+        padding: 1rem 20rem;
     }
 
     @media (max-width:600px) {
         margin-bottom: 70px;
-        margin-left: -45px;
+        
+        justify-content:center ;
+        
+
+    @media (max-width:300px) {
+        margin-bottom: 70px;
+        margin-left: -20%;
         justify-content:center ;
         
     }
@@ -42,14 +49,21 @@ export const EventosImg = styled.div`
 
 export const EventosH1 = styled.h1`
     text-align: left;
-    width: 50%;
+    width: 40%;
     font-size: 8rem;
+    
 
     @media (max-width:991px) {
+        width: 250px;
         text-align: center;
-        width: 95%;
-        margin: 0 auto;
-        font-size: 45px;
+        margin-left: 20% ;
+        margin-top: 5%;
+        font-size: 30px;
+    }
+
+    @media (max-width:800px) {
+        margin-left: 1% ;
+        
     }
 `;
 
@@ -80,4 +94,7 @@ export const EventosA = styled(Link)`
 export const Img= styled.img`
     width: 45rem;
     height: 40rem;
+    
+
+    
 `;

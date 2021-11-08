@@ -5,6 +5,28 @@ export const InfoContiner = styled.div`
     text-align: center;
     width: 70%;
     border-bottom: 1px solid var(--light-color);
+    
+    
+`;
+
+
+export const TituloContiner = styled.h1`
+    
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    font-size: 35px;
+
+    @media (max-width:750px) {
+        
+        margin-left:50px;
+    }
+    @media (max-width:400px) {
+        font-size:10px;
+        margin-left:-45px;
+    }
+    
+
 `;
 
 export const InfoContinerH5 = styled.h5`
