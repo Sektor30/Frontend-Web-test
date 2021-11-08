@@ -1,0 +1,376 @@
+:root {
+  --rojo: #e91e1e;
+  --negro: #000000;
+  --blanco: #fff;
+  --dark-blanco: #eee;
+  --light-color: #616563;
+  --light-color-2: #edeeec;
+
+  --footer-bg: #3d3e40;
+  --eventos-bg: #d0d0d0;
+
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --outline-hover: 0.2rem solid var(--rojo);
+}
+
+* {
+  border: none;
+  box-sizing: border-box;
+  font-family: var(--font-txt);
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 80.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  background-color: var(--blanco);
+  width: 100%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--negro);
+  color: var(--negro);
+  cursor: pointer;
+  background: none;
+  text-align: center;
+  margin: 10px auto 1px auto;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background: var(--rojo);
+  color: var(--blanco);
+}
+
+.btn:disabled {
+  border-color: lightgrey;
+  color: lightgrey;
+}
+
+.btn:disabled:hover {
+  background: none;
+}
+
+h1 {
+  font-family: var(--font-title);
+  color: var(--negro);
+  font-size: 8rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+h1 span {
+  color: var(--rojo);
+  font-family: var(--font-title);
+}
+
+/* Reservas page */
+.reservas {
+  margin-top: 90px;
+}
+
+.reservas h1 {
+  font-family: "Rockwell Condensed";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.reservas h1 span {
+  color: #e91e1e;
+}
+
+.reservas form {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.reservas form input,
+textarea {
+  margin-bottom: 20px;
+  width: 50%;
+  outline-color: #e91e1e;
+}
+
+/* Reservas page END */
+
+/*Contacto*/
+.contact {
+  padding-bottom: 500px;
+}
+.contenedor_movil {
+  background: white;
+  width: 100%;
+  top: 0;
+  padding: 0 2.25rem;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container {
+  margin: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.container-one {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  z-index: 2;
+  padding-left: 14.5rem;
+  margin-left: 43rem;
+  width: 50%;
+  
+}
+
+.container-two {
+  margin-top: 20px;
+  height: 50rem;
+}
+
+.container-three {
+  margin-top: 10px;
+}
+
+.container-three h2 {
+  margin: 30px auto;
+  font-size: 24px;
+  text-align: center;
+}
+.container-four {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 20px;
+}
+
+.caja4 {
+  width: 50%;
+  padding: auto 5px;
+  margin: auto 15px;
+}
+
+.caja5 {
+  width: 40%;
+  padding-bottom: 25px;
+  margin: -23px 5px;
+}
+
+.contacto {
+  padding: 20%;
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+}
+
+.blurb {
+  background: white;
+  padding: 2%;
+  box-shadow: 0px 0px 18px -1px rgba(233, 30, 30, 0.75);
+  text-align: center;
+  width: 250px;
+  height: 150px;
+}
+
+.blurb h3 span {
+  color: #e91e1e;
+}
+
+.blurb h3 {
+  font-family: "Rockwell Condensed";
+  font-size: 30px;
+  color: black;
+  line-height: 2.6875rem;
+  margin-bottom: 1.125rem;
+  border-bottom: 2px solid #e91e1e;
+}
+
+.blurb p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.formulario {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  justify-content: center;
+  max-width: 85.625rem;
+  max-height: 85.625rem;
+  margin: 0 auto;
+  padding: 2.25rem;
+  width: 90%;
+  height: 95%;
+  -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px -1px rgba(233, 30, 30, 0.75);
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.datos {
+  border-color: transparent;
+  font-size: 1rem;
+  width: 100%;
+  border-bottom-color: #e91e1e;
+  color: #e91e1e;
+  height: 20px;
+  padding: 4% 0%;
+}
+
+textarea {
+  padding: 4% 0%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #e91e1e;
+  width: 100%;
+  outline: none;
+  padding: 0.9375rem 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #e91e1e;
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 10.25rem;
+  min-height: 5.125rem;
+  min-width: 100%;
+}
+
+input[type="submit"] {
+  background: #e91e1e;
+  font-family: "Rockwell Condensed";
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3.125rem;
+  padding: 0.9375rem;
+  width: 20%;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 2px 2px 4px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#elegir_servicio {
+  border-radius: 10px;
+  background-color: var(--light-color);
+  width: 100%;
+  height: 45px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+#enter {
+  border-radius: 10px;
+  background-color: #e91e1e;
+  width: 80%;
+  height: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.contact {
+  padding-bottom: 500px;
+}
+
+@media (max-width: 1040px) {
+  html {
+    font-size: 55%;
+  }
+  
+  
+  .container-one {
+      border: 1px solid red;
+      width: 100%;
+      margin-left: 2px;
+      align-items: center;
+  }
+  
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .container-one {
+    margin-left: 30px;
+  }
+  .container-four {
+    padding-right: 10px;
+  }
+
+  .caja4 {
+    width: 85%;
+  }
+
+  .caja5 {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .formulario {
+    width: 90%;
+    height: 100%;
+  }
+  .blurb{
+    text-align: center;
+    width: 340px;
+    height: 150px;
+  
+  }
+
+  .blurb p {
+    font-size: 20px;
+  }
+  
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .container-one {
+    padding-left: 0px;
+    margin-left: 10px;
+  }
+
+
+}
