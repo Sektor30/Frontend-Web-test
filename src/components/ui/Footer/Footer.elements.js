@@ -17,17 +17,21 @@ export const BoxContainer = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
     align-items:center;
-    margin-left: 28rem;
-    width: 80%;
-    @media (max-width:991px) {
-       margin-left:7rem;
+    margin-left: 30rem;
+    padding:auto 5rem;
+    width: 75%;
+
+    @media (max-width:1600px) {
+        margin-left:12px;
+
+
+    @media (max-width:1180px) {
+       margin-left:8rem;
     }
 
-    @media (max-width:600px) {
-        margin-left:1px;
-
-    @media (max-width:300px) {
-        margin-left:;
+   
+    @media (max-width:450px) {
+        margin-left:8px;
         
     }
 
