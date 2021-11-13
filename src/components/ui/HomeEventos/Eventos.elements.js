@@ -8,6 +8,7 @@ export const EventosContainer = styled.div`
     background: var(--eventos-bg);
     padding: 1rem 60rem;
     width: 100%;
+    
      
 
     

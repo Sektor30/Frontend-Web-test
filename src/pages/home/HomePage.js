@@ -4,7 +4,7 @@ import Eventos from '../../components/ui/HomeEventos/Eventos'
 import Homemenu from '../../components/ui/HomeMenu/Homemenu'
 import Comments from '../../components/ui/HomeReseñas/Comments'
 import Restaurante from '../../components/ui/HomeRestaurante/Restaurante'
-import Listamapa from '../mapaS/Listamapa'
+
 import Contact1 from '../contactP/Contact1'
 
 function HomePage() {
@@ -16,7 +16,7 @@ function HomePage() {
             <Eventos />
             <Contact1 />
             <Comments />
-            <Listamapa />
+            
         </div>
     )
 }

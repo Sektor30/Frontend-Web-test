@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const FooterStyle = styled.div`
     background: var(--footer-bg);
     padding: 5rem 10rem;
+    
 
     @media (max-width:768px) {
         text-align: center;
@@ -15,6 +16,23 @@ export const BoxContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+    align-items:center;
+    margin-left: 28rem;
+    width: 80%;
+    @media (max-width:991px) {
+       margin-left:7rem;
+    }
+
+    @media (max-width:600px) {
+        margin-left:1px;
+
+    @media (max-width:300px) {
+        margin-left:;
+        
+    }
+
+
+
 `;
 
 export const FooterH1 = styled.h1`

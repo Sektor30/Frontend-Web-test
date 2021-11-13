@@ -17,13 +17,20 @@ export const TituloContiner = styled.h1`
     margin-left: 35%;
     font-size: 35px;
 
-    @media (max-width:750px) {
+
+    @media (max-width:950px) {
         
         margin-left:50px;
     }
-    @media (max-width:400px) {
-        font-size:10px;
-        margin-left:-45px;
+
+    @media (max-width:750px) {
+        font-size:4px;
+        margin-left:35px;
+    }
+
+    @media (max-width:415px) {
+        font-size:4px;
+        margin-left:-35px;
     }
     
 

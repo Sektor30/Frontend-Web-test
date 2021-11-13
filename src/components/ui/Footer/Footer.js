@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaArrowRight, FaEnvelope, FaFacebookSquare, FaInstagramSquare, FaMapMarkerAlt, FaPhone, FaTwitterSquare, FaYoutubeSquare } from 'react-icons/fa'
 import { BoxContainer, FooterIcon, FooterA, FooterH1, FooterStyle, FooterP, FooterShare, Share } from './Footer.elements'
+import Listamapa from '../../../pages/mapaS/Listamapa'
 
 function Footer() {
     return (
@@ -32,7 +33,14 @@ function Footer() {
                     <FooterA to="/mapa"><FooterIcon><FaArrowRight /></FooterIcon>MAPA DEL SITIO</FooterA>
                     <FooterA to="/reserva"><FooterIcon><FaArrowRight /></FooterIcon>RESERVAS</FooterA>
                 </div>
+
             </BoxContainer>
+            <div>
+
+                <div> < Listamapa /> </div>
+
+            </div>
+
         </FooterStyle>
     )
 }

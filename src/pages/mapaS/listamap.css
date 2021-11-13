@@ -41,12 +41,13 @@ body {
   width: 100%;
 }
 
-h1 {
+.mapaSitio h1 {
   font-family: var(--font-title);
-  color: var(--negro);
+  color: white;
   font-size: 4rem;
   text-align: center;
   margin-top: 10rem;
+  letter-spacing: 15px;
 }
 
 h1 span {
@@ -73,6 +74,10 @@ ul{
   font-size: 18px;
 }
 .caja a{
+  color: var(--blanco);
+}
+
+.tituloCaja:hover{
   color: var(--rojo);
 }
 
